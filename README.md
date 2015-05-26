@@ -1,2 +1,2 @@
-# google-homepage
-First Repository on GitHub
+The google-homepage project
+http://www.theodinproject.com/web-development-101/html-css?ref=lnav
