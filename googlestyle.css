@@ -1,0 +1,209 @@
+input.googlesearch {
+	background-color: #eeeded;
+	border-color: #ddd8d8;
+	border-style: solid;
+	border-width: thin;
+	color: #4b4949;
+	font-family: 'Arial';
+	font-weight: bold;
+	position: absolute;
+	top: 57%;
+	left: 40%;
+	border-radius: 2px 2px 2px 2px; 
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+input.imfeeling {
+	background-color: #eeeded;
+	border-color: #ddd8d8;
+	border-style: solid;
+	border-width: thin;
+	color: #4b4949;
+	font-family: 'Arial';
+	font-weight: bold;
+	position: absolute;
+	top: 57%;
+	left: 50%;
+	border-radius: 2px 2px 2px 2px; 
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+form input[type="text"] {
+	position: absolute;
+	top: 50%;
+	left: 28%;
+	width: 485px;
+	height: 23px;
+	font-family: 'Arial';
+	font-size: 15px;
+	background: url(http://edwisztreich.com/images/big-deep-voice-over-icon.png) right no-repeat;
+	background-size: 13px 18px;
+	padding-right: 20px;
+}
+
+input.imfeeling:hover {
+	box-shadow: 1px 1px 1px 0px #dfdada;
+}
+
+input.googlesearch:hover {
+	box-shadow: 1px 1px 1px 0px #dfdada;
+}
+
+img {
+	position: absolute;
+	top: 30%;
+	left: 38%;
+}
+
+#footer {
+	position: fixed; bottom: 0; left: 0; right: 0; height: 75px;
+	background-color: #eeeded;
+	width: 	100%;
+	border-color: #e5e2e2;
+}
+
+#footer ul {
+	list-style-type: none;
+	margin: 5px;
+	padding: 5px;
+	text-align: center; 
+	font-family: 'Arial';
+	font-size: 13px;
+}
+
+#footer ul li {
+	display: inline;
+}
+
+#footer ul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+}
+
+#footer ul li a:link {
+	color: #4b4949
+}
+
+#footer ul li a:hover {
+	text-decoration: underline;
+}
+
+#footer ul li a:visited {
+	color: #4b4949;
+}
+
+#footer ul {
+	column-count: 2;
+}
+
+#footer p {
+	font-family: 'Arial';
+	margin: 3px 5px 0px 25px; 
+	font-size: 13px;
+	color: #4b4949;
+}
+
+#footer p a {
+	text-decoration: none;
+
+}
+
+#footer p a:hover {
+	text-decoration: underline;
+}
+
+#footer p a:visited {
+	color: #4b4949
+}
+
+#footer p input {
+	font-family: 'Arial';
+	color: white;
+	background-color: #388bdd;
+	border-color: #2e7bc7;
+	border-style: solid;
+	border-width: thin;
+	font-weight: bold;
+	border-radius: 2px 2px 2px 2px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#footer p input:hover {
+	background-color: #2e7bc7;
+}
+
+#header {
+	position: fixed; top: 0; left: 0; right: 0; height: 75px;
+	width: 	100%;
+}
+
+#header ul {
+	list-style-type: none;
+	margin: 10px;
+	padding: 10px;
+	text-align: center; 
+	font-family: 'Arial';
+	font-size: 13px;
+}
+
+#header ul li {
+	display: inline;
+}
+
+#header ul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+}
+
+#header ul li a:link {
+	color: #4b4949
+}
+
+#header ul li a:hover {
+	text-decoration: underline;
+}
+
+#header ul li a:visited {
+	color: #4b4949;
+}
+
+#header ul li "" {
+	background: url("http://flatfrogblog.com/wp-content/uploads/2014/01/app-launcher-150x150.png"); transparent;
+	background-size: 13px 13px;
+	background-repeat: no-repeat;
+}
+
+#dumbicon img {
+	height: 17px;
+	width: 17px;
+	top: 23px; 
+	left: 1077px;
+}
+
+#header input {
+	font-family: 'Arial';
+	color: white;
+	background-color: #388bdd;
+	border-color: #2e7bc7;
+	border-style: solid;
+	border-width: thin;
+	font-weight: bold;
+	border-radius: 2px 2px 2px 2px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 13px;
+}
+
+form input:focus {
+	outline: none;
+	border-color: #118df0;
+	box-shadow: 0px 0px 0px 0px #118df0;
+}
+
+
+
+
+
