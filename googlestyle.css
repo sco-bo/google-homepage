@@ -109,6 +109,10 @@ img {
 	text-decoration: none;
 }
 
+#footer p a:link {
+	color: #4b4949
+}
+
 #footer p a:hover {
 	text-decoration: underline;
 }
