@@ -107,7 +107,6 @@ img {
 
 #footer p a {
 	text-decoration: none;
-
 }
 
 #footer p a:hover {
@@ -150,7 +149,8 @@ img {
 }
 
 #header ul li {
-	display: inline;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 #header ul li a {
@@ -170,17 +170,12 @@ img {
 	color: #4b4949;
 }
 
-#header ul li "" {
-	background: url("http://flatfrogblog.com/wp-content/uploads/2014/01/app-launcher-150x150.png"); transparent;
-	background-size: 13px 13px;
+#header #appicon {
+	background-image: url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/images/sprite.png);
 	background-repeat: no-repeat;
-}
-
-#dumbicon img {
-	height: 17px;
-	width: 17px;
-	top: 23px; 
-	left: 1077px;
+	background-position: -69px -854px;
+	height: 30px;
+	width: 30px;
 }
 
 #header input {
@@ -203,6 +198,9 @@ form input:focus {
 	box-shadow: 0px 0px 0px 0px #118df0;
 }
 
+#header li .app {
+	padding: 0px; !important;
+}
 
 
 
